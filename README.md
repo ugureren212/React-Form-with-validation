@@ -1,3 +1,4 @@
+# React-Form-with-validation
 How to run application:
 /task/simple-form/ run -->"npm start"
 
@@ -13,4 +14,5 @@ Misc files used for babel to use es6 instead of defualt javascript:
 
 Unit tests may not work as jest does not work with es6 javascript. However you would like to check
 my code for the unit test it could be found in src/unit-testing/validateInfo.test.js
-# React-Form-with-validation
+
+![](simpleForm.jpeg)

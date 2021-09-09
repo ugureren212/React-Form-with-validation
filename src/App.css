@@ -1,0 +1,47 @@
+/* custom google font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+/* centers the container in the middle of the page */
+#container {
+  background-color: #f5f5f5 !important;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*defines a min and max width for the card */
+.card {
+  width: min(1000px, calc(70% + 100px));
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+/* clamp style makes text responsive */
+.title {
+  font-size: clamp(3rem, 3vw, 5em) !important;
+}
+
+.label {
+  font-weight: bold;
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+}
+
+/* makes error messages red */
+
+.ErrorText {
+  color: red;
+}
+
+/* clamp style makes text responsive. font must be smaller than input field labels */
+.notesStats {
+  font-size: clamp(0.8rem, 1.5vw, 1rem);
+}
+
+/* submit btn will strech depending on width of form/window */
+.btn {
+  width: 100%;
+}
+
+.notesStats p {
+  margin-bottom: 0px;
+}
